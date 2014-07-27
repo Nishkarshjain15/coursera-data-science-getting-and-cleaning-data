@@ -7,42 +7,42 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
   Test person from which a specific set of measurements were made 
 
 
-2. "Activity"
+**1. Activity
 
 
-"Time.BodyAcc.Mean.X"
+**1. Time.BodyAcc.Mean.X"**
 
-"Time.BodyAcc.Mean.Y"
+**1. Time.BodyAcc.Mean.Y"**
 
-"Time.BodyAcc.Mean.Z"
+**1. Time.BodyAcc.Mean.Z"**
 
-"Time.BodyAcc.std.X"
+**1. Time.BodyAcc.std.X"**
 
-"Time.BodyAcc.std.Y"
+**1. Time.BodyAcc.std.Y"**
 
-"Time.BodyAcc.std.Z"
+**1. Time.BodyAcc.std.Z"**
 
-"Time.GravityAcc.Mean.X"
+**1. Time.GravityAcc.Mean.X"**
 
-"Time.GravityAcc.Mean.Y"
+**1. Time.GravityAcc.Mean.Y"**
 
-"Time.GravityAcc.Mean.Z"
+**1. Time.GravityAcc.Mean.Z"**
 
-"Time.GravityAcc.std.X"
+**1. Time.GravityAcc.std.X"**
 
-"Time.GravityAcc.std.Y"
+**1. Time.GravityAcc.std.Y"**
 
-"Time.GravityAcc.std.Z"
+**1. Time.GravityAcc.std.Z"**
 
-"Time.BodyAccJerk.Mean.X"
+**1. Time.BodyAccJerk.Mean.X"**
 
-"Time.BodyAccJerk.Mean.Y"
+**1. "Time.BodyAccJerk.Mean.Y"**
 
-"Time.BodyAccJerk.Mean.Z"
+**1. "Time.BodyAccJerk.Mean.Z"**
 
-"Time.BodyAccJerk.std.X"
+**1. "Time.BodyAccJerk.std.X"**
 
-"Time.BodyAccJerk.std.Y"
+**1. "Time.BodyAccJerk.std.Y"**
 
 "Time.BodyAccJerk.std.Z"
 
