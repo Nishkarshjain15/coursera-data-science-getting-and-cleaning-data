@@ -1,7 +1,7 @@
 Codebook -  Samsung Galaxy S smartphone Tidy Data Subset
 ===============================================
 
-1. "Subject"   1-30
+1. Subject
 ..* Subject
 
 
