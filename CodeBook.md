@@ -1,6 +1,5 @@
 Codebook -  Samsung Galaxy S Tidy Data Subset
 ===============================================
-
 **1. x**
   + Average value of measurements of the * body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
       [-1,1] . Mean of normalized values.
