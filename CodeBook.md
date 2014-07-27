@@ -3,7 +3,8 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 **1. Subject** 1-30
   + Subject
-...Test person from which a specific set of measurements were made 
+
+  Test person from which a specific set of measurements were made 
 
 
 2. "Activity"
