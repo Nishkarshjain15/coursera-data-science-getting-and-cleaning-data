@@ -1,8 +1,11 @@
+## (c) 2014 Gonzalo PENA C.
+## These script
+
+
 # @ Set the current work directory ####
 script.dir <- dirname(sys.frame(1)$ofile)
 setwd(script.dir)
 
-# print(script.dir)
 # @ Define base folders and subfolder names ####
 baseFolder <- 'UCI HAR Dataset'
 trainFolder <- 'train'
@@ -91,8 +94,10 @@ tidyData <- tidyData[,lapply(.SD, mean), by=c('Subject', 'Activity')]
 tidyData <- tidyData[order(tidyData$Subject, tidyData$Activity),]
 
 # @ Write the output to a file ####
-tidyFileName <- 'tidy.csv'
-write.csv(tidyData, file=tidyFileName, row.names=FALSE)
+tidyFileName <- 'tidy.txt'
+write.table(tidyData, file=tidyFileName, row.names=FALSE)
 
 # @ For test purposes read the created file ####
 tidyDataRead <- read.csv(tidyFileName)
+
+write.table(colnames(mergedDataSubset), 'm.md', row.names=FALSE)
