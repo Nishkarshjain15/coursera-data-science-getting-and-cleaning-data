@@ -393,7 +393,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **49. Frequency.BodyAcc.MeanFreq.X**
-  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
@@ -401,7 +401,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **50. Frequency.BodyAcc.MeanFreq.Y**
-  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
@@ -409,7 +409,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **51. Frequency.BodyAcc.MeanFreq.Z**
-  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
@@ -465,7 +465,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **58. Frequency.BodyAccJerk.MeanFreq.X**
-  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
@@ -473,7 +473,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **59. Frequency.BodyAccJerk.MeanFreq.Y**
-  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
@@ -481,7 +481,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **60. Frequency.BodyAccJerk.MeanFreq.Z**
-  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
@@ -537,7 +537,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **67. Frequency.BodyGyro.MeanFreq.X**
-  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
@@ -545,7 +545,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **68. Frequency.BodyGyro.MeanFreq.Y**
-  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
@@ -553,7 +553,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **69. Frequency.BodyGyro.MeanFreq.Z**
-  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
@@ -577,7 +577,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **72. Frequency.BodyAccMag.MeanFreq**
-  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
@@ -601,7 +601,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **75. Frequency.BodyAccJerkMag.MeanFreq**
-  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
@@ -625,7 +625,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **78. Frequency.BodyGyroMag.MeanFreq**
-  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
@@ -649,7 +649,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 **81. Frequency.BodyGyroJerkMag.MeanFreq**
-  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Average value of measurements of the *Weighted average of the frequency components body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1,1] . Mean of normalized values.
