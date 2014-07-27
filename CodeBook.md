@@ -1,18 +1,8 @@
-Codebook -  Samsung Galaxy S smartphone Tidy Data Subset
+Codebook -  Samsung Galaxy S Tidy Data Subset
 ===============================================
-1. *Subject* 1-30
+
+1. **Subject** 1-30
   + Subject
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
-5. 
-1. Subject
-⋅⋅* Subject 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
-
-
 ...Test person from which a specific set of measurements were made 
 
 
