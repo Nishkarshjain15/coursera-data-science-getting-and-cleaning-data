@@ -1,169 +1,252 @@
 Codebook -  Samsung Galaxy S Tidy Data Subset
 ===============================================
 
-**1. Subject** 1-30
-  + Subject
-
-  Test person from which a specific set of measurements were made 
-
-
-**1. Activity
-
-
-**1. Time.BodyAcc.Mean.X"**
-
-**1. Time.BodyAcc.Mean.Y"**
-
-**1. Time.BodyAcc.Mean.Z"**
-
-**1. Time.BodyAcc.std.X"**
-
-**1. Time.BodyAcc.std.Y"**
-
-**1. Time.BodyAcc.std.Z"**
-
-**1. Time.GravityAcc.Mean.X"**
-
-**1. Time.GravityAcc.Mean.Y"**
-
-**1. Time.GravityAcc.Mean.Z"**
-
-**1. Time.GravityAcc.std.X"**
-
-**1. Time.GravityAcc.std.Y"**
-
-**1. Time.GravityAcc.std.Z"**
-
-**1. Time.BodyAccJerk.Mean.X"**
-
-**1. "Time.BodyAccJerk.Mean.Y"**
-
-**1. "Time.BodyAccJerk.Mean.Z"**
-
-**1. "Time.BodyAccJerk.std.X"**
-
-**1. "Time.BodyAccJerk.std.Y"**
-
-"Time.BodyAccJerk.std.Z"
-
-"Time.BodyGyro.Mean.X"
-
-"Time.BodyGyro.Mean.Y"
-
-"Time.BodyGyro.Mean.Z"
-
-"Time.BodyGyro.std.X"
-
-"Time.BodyGyro.std.Y"
-
-"Time.BodyGyro.std.Z"
-
-"Time.BodyGyroJerk.Mean.X"
-
-"Time.BodyGyroJerk.Mean.Y"
-
-"Time.BodyGyroJerk.Mean.Z"
-
-"Time.BodyGyroJerk.std.X"
-
-"Time.BodyGyroJerk.std.Y"
-
-"Time.BodyGyroJerk.std.Z"
-
-"Time.BodyAccMag.Mean"
-
-"Time.BodyAccMag.std"
-
-"Time.GravityAccMag.Mean"
-
-"Time.GravityAccMag.std"
-
-"Time.BodyAccJerkMag.Mean"
-
-"Time.BodyAccJerkMag.std"
-
-"Time.BodyGyroMag.Mean"
-
-"Time.BodyGyroMag.std"
-
-"Time.BodyGyroJerkMag.Mean"
-
-"Time.BodyGyroJerkMag.std"
-
-"Frequency.BodyAcc.Mean.X"
-
-"Frequency.BodyAcc.Mean.Y"
-
-"Frequency.BodyAcc.Mean.Z"
-
-"Frequency.BodyAcc.std.X"
-
-"Frequency.BodyAcc.std.Y"
-
-"Frequency.BodyAcc.std.Z"
-
-"Frequency.BodyAcc.MeanFreq.X"
-
-"Frequency.BodyAcc.MeanFreq.Y"
-
-"Frequency.BodyAcc.MeanFreq.Z"
-
-"Frequency.BodyAccJerk.Mean.X"
-
-"Frequency.BodyAccJerk.Mean.Y"
-
-"Frequency.BodyAccJerk.Mean.Z"
-
-"Frequency.BodyAccJerk.std.X"
-
-"Frequency.BodyAccJerk.std.Y"
-
-"Frequency.BodyAccJerk.std.Z"
-
-"Frequency.BodyAccJerk.MeanFreq.X"
-
-"Frequency.BodyAccJerk.MeanFreq.Y"
-
-"Frequency.BodyAccJerk.MeanFreq.Z"
-
-"Frequency.BodyGyro.Mean.X"
-
-"Frequency.BodyGyro.Mean.Y"
-
-"Frequency.BodyGyro.Mean.Z"
-
-"Frequency.BodyGyro.std.X"
-
-"Frequency.BodyGyro.std.Y"
-
-"Frequency.BodyGyro.std.Z"
-
-"Frequency.BodyGyro.MeanFreq.X"
-
-"Frequency.BodyGyro.MeanFreq.Y"
-
-"Frequency.BodyGyro.MeanFreq.Z"
-
-"Frequency.BodyAccMag.Mean"
-
-"Frequency.BodyAccMag.std"
-
-"Frequency.BodyAccMag.MeanFreq"
-
-"Frequency.BodyAccJerkMag.Mean"
-
-"Frequency.BodyAccJerkMag.std"
-
-"Frequency.BodyAccJerkMag.MeanFreq"
-
-"Frequency.BodyGyroMag.Mean"
-
-"Frequency.BodyGyroMag.std"
-
-"Frequency.BodyGyroMag.MeanFreq"
-
-"Frequency.BodyGyroJerkMag.Mean"
-
-"Frequency.BodyGyroJerkMag.std"
-
-"Frequency.BodyGyroJerkMag.MeanFreq"
+**1. x**
+  + Average value of measurements of the * body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**2. Subject**
+  + Average value of measurements of the * body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**3. Activity**
+  + Average value of measurements of the * body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**4. Time.BodyAcc.Mean.X**
+  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**5. Time.BodyAcc.Mean.Y**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**6. Time.BodyAcc.Mean.Z**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**7. Time.BodyAcc.std.X**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *X* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**8. Time.BodyAcc.std.Y**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**9. Time.BodyAcc.std.Z**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**10. Time.GravityAcc.Mean.X**
+  + Average value of measurements of the *Mean gravity linear acceleration in the *X* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**11. Time.GravityAcc.Mean.Y**
+  + Average value of measurements of the *Mean gravity linear acceleration in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**12. Time.GravityAcc.Mean.Z**
+  + Average value of measurements of the *Mean gravity linear acceleration in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**13. Time.GravityAcc.std.X**
+  + Average value of measurements of the *Standard Deviation gravity linear acceleration in the *X* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**14. Time.GravityAcc.std.Y**
+  + Average value of measurements of the *Standard Deviation gravity linear acceleration in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**15. Time.GravityAcc.std.Z**
+  + Average value of measurements of the *Standard Deviation gravity linear acceleration in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**16. Time.BodyAccJerk.Mean.X**
+  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**17. Time.BodyAccJerk.Mean.Y**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**18. Time.BodyAccJerk.Mean.Z**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**19. Time.BodyAccJerk.std.X**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *X* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**20. Time.BodyAccJerk.std.Y**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**21. Time.BodyAccJerk.std.Z**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**22. Time.BodyGyro.Mean.X**
+  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**23. Time.BodyGyro.Mean.Y**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**24. Time.BodyGyro.Mean.Z**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**25. Time.BodyGyro.std.X**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *X* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**26. Time.BodyGyro.std.Y**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**27. Time.BodyGyro.std.Z**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**28. Time.BodyGyroJerk.Mean.X**
+  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**29. Time.BodyGyroJerk.Mean.Y**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**30. Time.BodyGyroJerk.Mean.Z**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**31. Time.BodyGyroJerk.std.X**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *X* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**32. Time.BodyGyroJerk.std.Y**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**33. Time.BodyGyroJerk.std.Z**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**34. Time.BodyAccMag.Mean**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**35. Time.BodyAccMag.std**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**36. Time.GravityAccMag.Mean**
+  + Average value of measurements of the *Mean gravity linear acceleration in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**37. Time.GravityAccMag.std**
+  + Average value of measurements of the *Standard Deviation gravity linear acceleration in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**38. Time.BodyAccJerkMag.Mean**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**39. Time.BodyAccJerkMag.std**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**40. Time.BodyGyroMag.Mean**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**41. Time.BodyGyroMag.std**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**42. Time.BodyGyroJerkMag.Mean**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**43. Time.BodyGyroJerkMag.std**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Time* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**44. Frequency.BodyAcc.Mean.X**
+  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**45. Frequency.BodyAcc.Mean.Y**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**46. Frequency.BodyAcc.Mean.Z**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**47. Frequency.BodyAcc.std.X**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**48. Frequency.BodyAcc.std.Y**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**49. Frequency.BodyAcc.std.Z**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**50. Frequency.BodyAcc.MeanFreq.X**
+  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**51. Frequency.BodyAcc.MeanFreq.Y**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**52. Frequency.BodyAcc.MeanFreq.Z**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**53. Frequency.BodyAccJerk.Mean.X**
+  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**54. Frequency.BodyAccJerk.Mean.Y**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**55. Frequency.BodyAccJerk.Mean.Z**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**56. Frequency.BodyAccJerk.std.X**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**57. Frequency.BodyAccJerk.std.Y**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**58. Frequency.BodyAccJerk.std.Z**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**59. Frequency.BodyAccJerk.MeanFreq.X**
+  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**60. Frequency.BodyAccJerk.MeanFreq.Y**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**61. Frequency.BodyAccJerk.MeanFreq.Z**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**62. Frequency.BodyGyro.Mean.X**
+  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**63. Frequency.BodyGyro.Mean.Y**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**64. Frequency.BodyGyro.Mean.Z**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**65. Frequency.BodyGyro.std.X**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**66. Frequency.BodyGyro.std.Y**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**67. Frequency.BodyGyro.std.Z**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**68. Frequency.BodyGyro.MeanFreq.X**
+  + Average value of measurements of the *Mean body angular velocity in the *X* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**69. Frequency.BodyGyro.MeanFreq.Y**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**70. Frequency.BodyGyro.MeanFreq.Z**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**71. Frequency.BodyAccMag.Mean**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**72. Frequency.BodyAccMag.std**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**73. Frequency.BodyAccMag.MeanFreq**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**74. Frequency.BodyAccJerkMag.Mean**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**75. Frequency.BodyAccJerkMag.std**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**76. Frequency.BodyAccJerkMag.MeanFreq**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**77. Frequency.BodyGyroMag.Mean**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**78. Frequency.BodyGyroMag.std**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**79. Frequency.BodyGyroMag.MeanFreq**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**80. Frequency.BodyGyroJerkMag.Mean**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**81. Frequency.BodyGyroJerkMag.std**
+  + Average value of measurements of the *Standard Deviation body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**82. Frequency.BodyGyroJerkMag.MeanFreq**
+  + Average value of measurements of the *Mean body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
+**83. **
+  + Average value of measurements of the * body angular velocity in the *Y* direction* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+      [-1,1] . Mean of normalized values.
