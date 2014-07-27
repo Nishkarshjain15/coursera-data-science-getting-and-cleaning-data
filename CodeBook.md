@@ -392,7 +392,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**49. Frequency.BodyAcc.MeanFreq.X**
+**49. Frequency.BodyAccJerk.Mean.X**
   + Average value for the measurements of the *Mean* of the *body linear jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -400,7 +400,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**50. Frequency.BodyAcc.MeanFreq.Y**
+**50. Frequency.BodyAccJerk.Mean.Y**
   + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -408,7 +408,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**51. Frequency.BodyAcc.MeanFreq.Z**
+**51. Frequency.BodyAccJerk.Mean.Z**
   + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -416,31 +416,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**52. Frequency.BodyAccJerk.Mean.X**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**53. Frequency.BodyAccJerk.Mean.Y**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**54. Frequency.BodyAccJerk.Mean.Z**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**55. Frequency.BodyAccJerk.std.X**
+**52. Frequency.BodyAccJerk.std.X**
   + Average value for the measurements of the *Standard Deviation* of the *body linear jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -448,7 +424,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**56. Frequency.BodyAccJerk.std.Y**
+**53. Frequency.BodyAccJerk.std.Y**
   + Average value for the measurements of the *Standard Deviation* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -456,7 +432,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**57. Frequency.BodyAccJerk.std.Z**
+**54. Frequency.BodyAccJerk.std.Z**
   + Average value for the measurements of the *Standard Deviation* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -464,7 +440,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**58. Frequency.BodyAccJerk.MeanFreq.X**
+**55. Frequency.BodyGyro.Mean.X**
   + Average value for the measurements of the *Mean* of the *body linear jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -472,7 +448,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**59. Frequency.BodyAccJerk.MeanFreq.Y**
+**56. Frequency.BodyGyro.Mean.Y**
   + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -480,7 +456,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**60. Frequency.BodyAccJerk.MeanFreq.Z**
+**57. Frequency.BodyGyro.Mean.Z**
   + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -488,31 +464,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**61. Frequency.BodyGyro.Mean.X**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**62. Frequency.BodyGyro.Mean.Y**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**63. Frequency.BodyGyro.Mean.Z**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**64. Frequency.BodyGyro.std.X**
+**58. Frequency.BodyGyro.std.X**
   + Average value for the measurements of the *Standard Deviation* of the *body linear jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -520,7 +472,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**65. Frequency.BodyGyro.std.Y**
+**59. Frequency.BodyGyro.std.Y**
   + Average value for the measurements of the *Standard Deviation* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -528,7 +480,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**66. Frequency.BodyGyro.std.Z**
+**60. Frequency.BodyGyro.std.Z**
   + Average value for the measurements of the *Standard Deviation* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -536,15 +488,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**67. Frequency.BodyGyro.MeanFreq.X**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**68. Frequency.BodyGyro.MeanFreq.Y**
+**61. Frequency.BodyAccMag.Mean**
   + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -552,23 +496,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**69. Frequency.BodyGyro.MeanFreq.Z**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**70. Frequency.BodyAccMag.Mean**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**71. Frequency.BodyAccMag.std**
+**62. Frequency.BodyAccMag.std**
   + Average value for the measurements of the *Standard Deviation* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -576,7 +504,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**72. Frequency.BodyAccMag.MeanFreq**
+**63. Frequency.BodyAccJerkMag.Mean**
   + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -584,15 +512,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**73. Frequency.BodyAccJerkMag.Mean**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**74. Frequency.BodyAccJerkMag.std**
+**64. Frequency.BodyAccJerkMag.std**
   + Average value for the measurements of the *Standard Deviation* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -600,7 +520,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**75. Frequency.BodyAccJerkMag.MeanFreq**
+**65. Frequency.BodyGyroMag.Mean**
   + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -608,15 +528,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**76. Frequency.BodyGyroMag.Mean**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**77. Frequency.BodyGyroMag.std**
+**66. Frequency.BodyGyroMag.std**
   + Average value for the measurements of the *Standard Deviation* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -624,7 +536,7 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**78. Frequency.BodyGyroMag.MeanFreq**
+**67. Frequency.BodyGyroJerkMag.Mean**
   + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
@@ -632,24 +544,8 @@ Codebook -  Samsung Galaxy S Tidy Data Subset
 
 
 
-**79. Frequency.BodyGyroJerkMag.Mean**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**80. Frequency.BodyGyroJerkMag.std**
+**68. Frequency.BodyGyroJerkMag.std**
   + Average value for the measurements of the *Standard Deviation* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
-
-
-      [-1.0,1.0] . Normalized values.
-
-
-
-**81. Frequency.BodyGyroJerkMag.MeanFreq**
-  + Average value for the measurements of the *Mean* of the *body linear jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
       [-1.0,1.0] . Normalized values.
