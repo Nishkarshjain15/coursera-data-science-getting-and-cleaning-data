@@ -4,7 +4,7 @@ Codebook -  Samsung Galaxy S smartphone Tidy Data Subset
 "Subject"...1-30
 ..* Subject
 ...Test person from which a specific set of measurements were made 
-        
+---        
 "Activity"
 
 "Time.BodyAcc.Mean.X"
