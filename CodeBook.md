@@ -1,17 +1,12 @@
 Codebook -  Samsung Galaxy S smartphone Tidy Data Subset
 ===============================================
 
-"Subject"...1-30
+1. "Subject"   1-30
 ..* Subject
 ...Test person from which a specific set of measurements were made 
----        
 
 
-
-* Unordered sub-list. 
-
-
-"Activity"
+2. "Activity"
 
 
 "Time.BodyAcc.Mean.X"
