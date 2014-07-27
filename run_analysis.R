@@ -1,14 +1,21 @@
+# @ Set the current work directory ####
+script.dir <- dirname(sys.frame(1)$ofile)
+setwd(script.dir)
+
+# print(script.dir)
 # @ Define base folders and subfolder names ####
 baseFolder <- 'UCI HAR Dataset'
 trainFolder <- 'train'
 testFolder <- 'test'
 
 # @ Download data set and unzip it ####
-dataUrl <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-# if 
-tempFile <- tempfile()
-download.file(dataUrl, destfile=tempFile, method="curl")
-unzip(tempFile)
+# But first check if the folder exists to skipt this step
+if (!file.exists(baseFolder)) {
+    dataUrl <- 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
+    tempFile <- tempfile()
+    download.file(dataUrl, destfile=tempFile, method="curl")
+    unzip(tempFile)
+}
 
 # @ Define filenames to load ####
 activityFilename <- 'activity_labels.txt'
@@ -20,7 +27,7 @@ testSubjectFilename <- 'subject_test.txt'
 testLabelsFilename <- 'y_test.txt'
 testDataFilename <- 'X_test.txt'
 
-# Create path to files ####
+# **Create path to files ####
 activityFilename <- file.path(baseFolder, activityFilename)
 featuresFilename <- file.path(baseFolder, featuresFilename)
 trainLabelsFilename <- file.path(baseFolder, trainFolder, trainLabelsFilename)
@@ -48,39 +55,44 @@ features$Feature <- gsub('^f', 'Frequency.', features$Feature)
 features$Feature <- gsub('^t', 'Time.', features$Feature)
 features$Feature <- gsub('^angle', 'Angle.', features$Feature)
 features$Feature <- gsub('mean', 'Mean', features$Feature)
+features$Feature <- gsub('tBody', 'TimeBody', features$Feature)
 
-# Change the name of the data sets using the features data
+# @ Change the name of the data sets using the features data ####
 colnames(testData) <- features$Feature
 colnames(trainData) <- features$Feature
 
-# Replace train and test labels by the names in the activity file
+# @ Replace train and test labels by the names in the activity file ####
 labels <- activity$Activity
 testFactors <- factor(testLabels$Number)
 trainFactors <- factor(trainLabels$Number)
 testActivity <- data.frame(Activity=as.character(factor(testFactors, labels=labels)))
-trainActivity <- data.frame(Activity=(as.character(factor(trainFactors, labels=labels)))
+trainActivity <- data.frame(Activity=as.character(factor(trainFactors, labels=labels)))
 
-# Merge data using column binds
-testDataMerged <- cbind(testSubject, testActivity, testData)
-trainDataMerged <- cbind(trainSubject, trainActivity, trainData)
+# @ Merge data using column binds ####
+testMergedData <- cbind(testSubject, testActivity, testData)
+trainMergedData <- cbind(trainSubject, trainActivity, trainData)
 
-# Merges the training and the test sets to create one data set.
-dataMerged <- rbind(testDataMerged, trainDataMerged)
+# @ Merges the training and the test sets to create one data set ####
+mergedData <- rbind(testMergedData, trainMergedData)
 
 # Extracts only the measurements on the mean and standard deviation for each measurement. 
-dataMergedSubset <- dataMerged[,grep('Subject|Activity|Mean|std',x=colnames(dataMerged))]
+colNames <- colnames(mergedData)[grep('^(?!Angle)',x=colnames(mergedData),perl=TRUE)]
+mergedDataSubset <- mergedData[,grep('Subject|Activity|Mean|std',x=colNames)]
 
 # Uses descriptive activity names to name the activities in the data set
 
 # Appropriately labels the data set with descriptive variable names. 
 
-# Creates a second, independent tidy data set with the average of each variable for each 
-# activity and each subject. 
+# @ Creates a second, independent tidy data ####
+# set with the average of each variable for each activity and each subject. 
 library(data.table)
-dataTidy <- data.table(dataMergedSubset)
-dataTidy <- dataTidy[,lapply(.SD, mean), by=c('Subject', 'Activity')]
-dataTidy <- dataTidy[order(dataTidy$Subject, dataTidy$Activity),]
+tidyData <- data.table(mergedDataSubset)
+tidyData <- tidyData[,lapply(.SD, mean), by=c('Subject', 'Activity')]
+tidyData <- tidyData[order(tidyData$Subject, tidyData$Activity),]
 
-# Write the output to a file ####
+# @ Write the output to a file ####
 tidyFileName <- 'tidy.csv'
-write.csv(dataTidy, file=tidyFileName)
+write.csv(tidyData, file=tidyFileName, row.names=FALSE)
+
+# @ For test purposes read the created file ####
+tidyDataRead <- read.csv(tidyFileName)
