@@ -2,6 +2,8 @@
 """
 Created on Thu Jun 19 00:30:37 2014
 
+Script to generate a base for the CodeBook.md file.
+
 @author: goanpeca
 """
 def main():
@@ -10,7 +12,13 @@ def main():
     create_md(fin, fout)
 
 def create_md(fin, fout):
-    """ """
+    """ Create a base markdown file
+    
+    fin : str
+        input file name
+    fout: str
+        output filename
+    """
     with open(fin) as f:
         data = f.read()
 
