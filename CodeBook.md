@@ -1,22 +1,20 @@
 Codebook
 ===============================================
-
 Samsung Galaxy S Tidy Data Subset
------------------------------------
 
 **1. Subject**
-  + Average value for the measurements of the *Magnitude* of the ** of the *Body Linear Jerk* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Subjects that perform a set of activities
 
 
-      [-1.0,1.0] . Normalized values.
+      [1,30]
 
 
 
 **2. Activity**
-  + Average value for the measurements of the *Magnitude* of the ** of the *Body Linear Jerk* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
+  + Activities performed by the test and train subjects
 
 
-      [-1.0,1.0] . Normalized values.
+      [LAYING, SITTING, STANDING, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS]. Activities
 
 
 
