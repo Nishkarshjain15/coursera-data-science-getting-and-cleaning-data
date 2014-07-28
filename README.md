@@ -9,10 +9,6 @@ coursera-data-science-getting-and-cleaning-data
 goanpeca@gmail.com
 
 
-
-Repository for the Coursera course Project on Data Science - Cleaning and Getting Data Course
-
-
 ### Introduction
 [1]
 
@@ -23,16 +19,17 @@ The dataset includes the following files:
 
 - 'CodeBook.txt': List of all features.
 
-- 'run_analysis.R'
+- 'run_analysis.R': Main R script performing the tidy operations.
+
+- 'codebook.py': Pythons cript to generate CodeBook.md
 
 - 'tidyData.txt': Tidy data processed from 
 
 
 Notes: 
 ======
-- Features are normalized and bounded within [-1,1].
 
-For more information about this dataset contact: activityrecognition@smartlab.ws
+For more information about this subset contact: [goanpeca](mailto:goanpeca@gmail.com)
 
 License:
 ========
