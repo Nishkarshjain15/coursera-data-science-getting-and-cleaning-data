@@ -1,12 +1,11 @@
-===============================================
 Human Activity Recognition Using Smartphones Subset [1]
+===============================================
 Version 1.0
 ==================================================================
 Gonzalo Andres Pena Castellanos
 coursera-data-science-getting-and-cleaning-data
 goanpeca@gmail.com
 
-==================================================================
 
 
 Repository for the Coursera course Project on Data Science - Cleaning and Getting Data Course
