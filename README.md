@@ -39,7 +39,7 @@ The original dataset included the following statistics:
 
 Description of process:
 -----------------------
-From this original data set a series of steps were followed in order to obtain a tidy data set for further postprocessing. To carry out this process the [run_analysis.R]() script was used. The steps go from downloading the original dataset, extracting it and the performing reshaping and postprocessing. The different steps are described inside [run_analysis.R]() but a general overview includes:
+From this original data set a series of steps were followed in order to obtain a tidy data set for further postprocessing. To carry out this process the [run_analysis.R](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/run_analysis.R) script was used. The steps go from downloading the original dataset, extracting it and the performing reshaping and postprocessing. The different steps are described inside [run_analysis.R](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/run_analysis.R) but a general overview includes:
 - Merging the training and the test subjects into a single dataset.
 - Extracting only the measurements corresponding to the mean (Mean) and standard deviation (std) for each available measurement. 
 - Joining the subjects with the activities performed by the subjects with the measurements from the dataset.
@@ -47,7 +47,7 @@ From this original data set a series of steps were followed in order to obtain a
 
 Tidy dataset:
 -------------
-The resulting dataset [tidy.txt]() contains 66 columns of averaged information (per subject and activity) corresponding to the mean and std of different meassurements for a total of 180 observations (rows). These observations include meassurements in **Time** and **Frequency** of magnitude (**Mag**) and components in **X**,**Y** and **Z** direction for the linear acceleration (**Acc**), angular acceleration (**Gyro**), linear jerk (**AccJerk**) and angular jerk (**GyroJerk**) for both **Body** and **Gravity** components. Columns 1 and 2 correspond to the **Subject** and **Activity**. 
+The resulting dataset [tidy.txt](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/tidy.txt) contains 66 columns of averaged information (per subject and activity) corresponding to the mean and std of different meassurements for a total of 180 observations (rows). These observations include meassurements in **Time** and **Frequency** of magnitude (**Mag**) and components in **X**,**Y** and **Z** direction for the linear acceleration (**Acc**), angular acceleration (**Gyro**), linear jerk (**AccJerk**) and angular jerk (**GyroJerk**) for both **Body** and **Gravity** components. Columns 1 and 2 correspond to the **Subject** and **Activity**. 
 
 
 This project includes the following files:
