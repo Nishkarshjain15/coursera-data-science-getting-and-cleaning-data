@@ -39,4 +39,4 @@ Gonzalo PENA C. July 2014.
 
 References:
 ===========
-[1] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+[1]: [UCI Machine Learning repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
