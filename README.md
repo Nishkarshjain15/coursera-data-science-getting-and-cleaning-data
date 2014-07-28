@@ -36,7 +36,7 @@ License:
 
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
-Gonzalo PENA. July 2014.  
+Gonzalo PENA C. July 2014.  
 
 References:
 ===========
