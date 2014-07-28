@@ -1,8 +1,8 @@
 Codebook
 ===============================================
-##
-Samsung Galaxy S Tidy Data Subset
 
+Samsung Galaxy S Tidy Data Subset
+##################################
 
 **1. Subject**
   + Average value for the measurements of the *Magnitude* of the ** of the *Body Linear Jerk* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
