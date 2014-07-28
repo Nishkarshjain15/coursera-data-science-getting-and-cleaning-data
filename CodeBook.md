@@ -16,8 +16,9 @@ The resulting tidy dataset contains 66 columns of averaged information (per subj
 
 For more information please read [README](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/README.md). 
 
-The following lines describe each variable, column number, type of data and range of data for the tidy dataset file.
 
+The following lines describe each variable, column number, type of data and range of data for the tidy dataset file.
+------------------------
 
 **1. Subject**
   + Subjects that perform a set of activities
