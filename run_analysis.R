@@ -85,7 +85,7 @@ trainMergedData <- cbind(trainSubject, trainActivity, trainData)
 # @ Merges the training and the test sets to create one data set ####
 mergedData <- rbind(testMergedData, trainMergedData)
 
-# Remove measurements that contain Angle or MeanFreq and store the rest of the columns in rows ####
+# Store columns that do not conatin Angle ir MeanFreq ####
 rows <- c()
 colNames <- colnames(mergedData)
 for (i in seq_along(colNames)){
