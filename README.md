@@ -1,5 +1,7 @@
-Human Activity Recognition Using Smartphones Subset
+Data Science: Getting and Cleaning Data Project
 ===================================================
+Human Activity Recognition Using Smartphones Subset
+---------------------------------------------------
 Version 1.0
 -----------------------------
 Gonzalo PENA C.
