@@ -78,9 +78,21 @@ trainMergedData <- cbind(trainSubject, trainActivity, trainData)
 # @ Merges the training and the test sets to create one data set ####
 mergedData <- rbind(testMergedData, trainMergedData)
 
+# Remove measurements that contain Angle or MeanFreq and store the rest of the columns in rows
+rows <- c()
+colNames <- colnames(mergedData)
+for (i in seq_along(colNames)){
+    name <- colNames[i]
+    check1 <- grep('Angle', x=name)
+    check2 <- grep('MeanFreq', x=name)
+    if (!(any(check1) | any(check2))){
+        rows <- c(r, i)
+    }
+} 
+
 # Extracts only the measurements on the mean and standard deviation for each measurement. 
-colNames <- colnames(mergedData)[grep('^(?!Angle)',x=colnames(mergedData),perl=TRUE)]
-mergedDataSubset <- mergedData[,grep('Subject|Activity|Mean|std',x=colNames)]
+mergedData <- mergedData[,rows]
+mergedDataSubset <- mergedData[,grep('Subject|Activity|Mean|std',x=colnames(mergedData))]
 
 # Uses descriptive activity names to name the activities in the data set
 
@@ -98,6 +110,6 @@ tidyFileName <- 'tidy.txt'
 write.table(tidyData, file=tidyFileName, row.names=FALSE)
 
 # @ For test purposes read the created file ####
-tidyDataRead <- read.csv(tidyFileName)
+tidyDataRead <- read.csv(tidyFileName, sep=' ')
 
 write.table(colnames(mergedDataSubset), 'm.md', row.names=FALSE)
