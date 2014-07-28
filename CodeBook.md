@@ -5,7 +5,7 @@ Samsung Galaxy S Tidy Data Subset
 
 Description:
 ------------
-The file [tidyData.txt](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/tidy.txt) is a processed subset of the original [Human Activity Recognition Using Smartphones Data Set ](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) produced by [UCI Machine Learning repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). It followed a series of steps including:
+The file [tidy.txt](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/tidy.txt) is a processed subset of the original [Human Activity Recognition Using Smartphones Data Set ](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) produced by [UCI Machine Learning repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). It followed a series of steps including:
 
 - Merging the training and the test subjects into a single dataset.
 - Extracting only the measurements corresponding to the mean (Mean) and standard deviation (std) for each available measurement. 
