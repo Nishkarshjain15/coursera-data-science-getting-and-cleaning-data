@@ -45,12 +45,13 @@ From the original data set a series of steps were followed in order to obtain a 
 - Joining the subjects with the activities performed by the subjects with the measurements from the dataset.
 - Evaluating the mean per subject and activity of the available meassurements and sorting by subject and activity.
 - Saving the resulting dataset in a text file.
+- Saving the dataset column names in a text file.
 
 The resulting dataset [tidy.txt](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/tidy.txt) contains 66 columns of averaged information (per subject and activity) corresponding to the **Mean** and **std** of different meassurements for a total of 180 observations (30 subjects x 6 activities). These observations include meassurements in **Time** and **Frequency** of magnitude (**Mag**) and components in **X**,**Y** and **Z** direction for the linear acceleration (**Acc**), angular acceleration (**Gyro**), linear jerk (**AccJerk**) and angular jerk (**GyroJerk**) for both **Body** and **Gravity** components. Columns 1 and 2 correspond to the **Subject** and **Activity**. 
 
 Postprocessing:
 ---------------
-A detailed description of the variable names (columns) found in [tidy.txt](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/tidy.txt) was generated using the python script [codebook.py](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/codebook.py). For more information please refer to [CodeBook.md](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/CodeBook.md)
+A detailed description of the variable names (columns) found in [tidy.txt](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/tidy.txt) was generated using the python script [codebook.py](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/codebook.py) and the dataset column names [dataset-column-names.txt](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/dataset-column-names.txt). For more information please refer to [CodeBook.md](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/CodeBook.md)
 
 This project includes the following files:
 ------------------------------------------
@@ -63,6 +64,9 @@ This project includes the following files:
 - 'codebook.py': Python script to generate CodeBook.md
 
 - 'tidyData.txt': Tidy dataset  
+
+- 'dataset-column-names.txt': column names of the tidy dataset
+
 
 
 Notes: 
