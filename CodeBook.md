@@ -12,7 +12,11 @@ The file [tidyData.txt](https://github.com/goanpeca/coursera-data-science-gettin
 - Joining the subjects with the activities performed by the subjects with the measurements from the dataset.
 - Evaluating the mean per subject and activity of the available meassurements and sorting by subject and activity.
 
-The resulting tidy dataset contains 66 columns of averaged information (per subject and activity) corresponding to the mean and std of different meassurements for a total of 180 observations (rows). Columns 1 and 2 correspond to the subject and activity. For more information please read [README](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/README.md). The following lines describe each variable, column number, type of data and range of data for the tidy dataset file.
+The resulting tidy dataset contains 66 columns of averaged information (per subject and activity) corresponding to the mean and std of different meassurements for a total of 180 observations (rows). Columns 1 and 2 correspond to the subject and activity. 
+
+For more information please read [README](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/README.md). 
+
+The following lines describe each variable, column number, type of data and range of data for the tidy dataset file.
 
 
 **1. Subject**
