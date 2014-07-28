@@ -2,6 +2,19 @@ Codebook
 ===============================================
 Samsung Galaxy S Tidy Data Subset
 -----------------------------------
+
+Description:
+------------
+The file tidyData.txt is a processed subset of the original [Samsung Galaxy S][1] dataset. It followed a series of steps including:
+-Merging the training and the test subjects into a single dataset.
+-Extracting only the measurements corresponding to the mean (Mean) and standard deviation (std) for each available measurement. 
+-Joining the subjects with the activities performed by the subjects with the measurements from the dataset.
+-Evaluating the mean per subject and activity of the available meassurements and sorting by subject and activity.
+
+..The resulting tidy dataset contains 66 columns of averaged information (per subject and activity) corresponding to the mean and std of different meassurements. Columns 1 and 2 correspond to the subject and activity. 
+
+
+
 **1. Subject**
   + Subjects that perform a set of activities
 
@@ -543,4 +556,9 @@ Samsung Galaxy S Tidy Data Subset
 
 
       [-1.0,1.0] . Normalized floating point values.
+
+Notes
+-----
+[1] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
 
