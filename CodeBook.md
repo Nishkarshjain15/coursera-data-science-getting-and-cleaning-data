@@ -5,7 +5,7 @@ Samsung Galaxy S Tidy Data Subset
 
 Description:
 ------------
-The file tidyData.txt is a processed subset of the original [Samsung Galaxy S][1] dataset. It followed a series of steps including:
+The file tidyData.txt is a processed subset of the original [Samsung-Galaxy-S][1] dataset. It followed a series of steps including:
 -Merging the training and the test subjects into a single dataset.
 -Extracting only the measurements corresponding to the mean (Mean) and standard deviation (std) for each available measurement. 
 -Joining the subjects with the activities performed by the subjects with the measurements from the dataset.
