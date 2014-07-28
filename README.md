@@ -2,9 +2,9 @@ Data Science: Getting and Cleaning Data Project
 ---------------------------------------------------
 **Human Activity Recognition Using Smartphones Subset**
 
-Version 1.0
+**Version 1.0**
 
-Gonzalo PENA C.
+**Gonzalo PENA C.**
 
 goanpeca@gmail.com
 
@@ -45,3 +45,5 @@ References:
 [1]: [UCI Machine Learning repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 [2]: [Human Activity Recognition Using Smartphones Data Set ](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+
+[3]: [Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine](http://link.springer.com/chapter/10.1007/978-3-642-35395-6_30)
