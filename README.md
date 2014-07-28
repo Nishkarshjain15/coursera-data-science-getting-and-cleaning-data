@@ -63,7 +63,7 @@ This project includes the following files:
 
 - 'codebook.py': Python script to generate CodeBook.md
 
-- 'tidyData.txt': Tidy dataset  
+- 'tidy.txt': Tidy dataset  
 
 - 'dataset-column-names.txt': column names of the tidy dataset
 
