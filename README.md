@@ -4,13 +4,11 @@ Version 1.0
 -----------------------------
 Gonzalo PENA C.
 
-coursera-data-science-getting-and-cleaning-data
-
 goanpeca@gmail.com
 
 
 ### Introduction
-[1]
+
 
 The dataset includes the following files:
 =========================================
