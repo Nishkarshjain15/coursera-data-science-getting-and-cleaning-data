@@ -12,7 +12,7 @@ The file [tidyData.txt](https://github.com/goanpeca/coursera-data-science-gettin
 - Joining the subjects with the activities performed by the subjects with the measurements from the dataset.
 - Evaluating the mean per subject and activity of the available meassurements and sorting by subject and activity.
 
-The resulting tidy dataset contains 66 columns of averaged information (per subject and activity) corresponding to the mean and std of different meassurements for a total of 180 observations (rows). These observations include meassurements in **Time** and **Frequency** of magnitude (**Mag**) and components in X,Y and Z direction for the linear acceleration (Acc), angular acceleration (Gyro), linear jerk (AccJerk) and angular jerk (GyroJerk) for both Body and Gravity components. Columns 1 and 2 correspond to the Subject and Activity. 
+The resulting tidy dataset contains 66 columns of averaged information (per subject and activity) corresponding to the mean and std of different meassurements for a total of 180 observations (rows). These observations include meassurements in **Time** and **Frequency** of magnitude (**Mag**) and components in **X**,**Y** and **Z** direction for the linear acceleration (**Acc**), angular acceleration (**Gyro**), linear jerk (**AccJerk**) and angular jerk (**GyroJerk**) for both **Body** and **Gravity** components. Columns 1 and 2 correspond to the **Subject** and **Activity**. 
 
 For more information please read [README](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/README.md). 
 
