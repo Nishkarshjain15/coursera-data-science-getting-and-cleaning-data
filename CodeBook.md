@@ -11,7 +11,7 @@ The file tidyData.txt is a processed subset of the original [Samsung Galaxy S][1
 -Joining the subjects with the activities performed by the subjects with the measurements from the dataset.
 -Evaluating the mean per subject and activity of the available meassurements and sorting by subject and activity.
 
-..The resulting tidy dataset contains 66 columns of averaged information (per subject and activity) corresponding to the mean and std of different meassurements. Columns 1 and 2 correspond to the subject and activity. 
+The resulting tidy dataset contains 66 columns of averaged information (per subject and activity) corresponding to the mean and std of different meassurements. Columns 1 and 2 correspond to the subject and activity. 
 
 
 
