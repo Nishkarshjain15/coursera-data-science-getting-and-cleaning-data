@@ -39,7 +39,7 @@ The original dataset included the following statistics (in **bold** the ones use
 
 Processing:
 -----------
-From the original data set a series of steps were followed in order to obtain a tidy data set for further postprocessing. To carry out this process the [run_analysis.R](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/run_analysis.R) script was used. The steps go from downloading the original dataset, extracting it and the performing reshaping and postprocessing. The different steps are described inside [run_analysis.R](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/run_analysis.R) but a general overview includes:
+From the original data set a series of steps were followed in order to obtain a tidy data set for further postprocessing. To carry out this process the [run_analysis.R](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/run_analysis.R) script was used. The steps go from downloading the original dataset, extracting it and performing reshaping and postprocessing. The different steps are described inside [run_analysis.R](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/run_analysis.R) but a general overview includes:
 - Merging the training and the test subjects into a single dataset.
 - Extracting only the measurements corresponding to the mean (**mean()**) and standard deviation (**std()**) for each available measurement. 
 - Joining the subjects with the activities performed by the subjects with the measurements from the dataset.
