@@ -28,6 +28,7 @@ The dataset includes the following files:
 
 Notes: 
 ======
+- Each row in the [Tidyset](https://github.com/goanpeca/coursera-data-science-getting-and-cleaning-data/blob/master/tidy.txt) corresponds to an aggregated average per subject and activity of several meassurements.
 
 For more information about this subset contact: [goanpeca](mailto:goanpeca@gmail.com)
 
