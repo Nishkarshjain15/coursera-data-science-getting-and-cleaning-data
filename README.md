@@ -1,5 +1,5 @@
-Human Activity Recognition Using Smartphones Subset[1]
-===============================================
+Human Activity Recognition Using Smartphones Subset
+===================================================
 Version 1.0
 -----------------------------
 Gonzalo Andres Pena Castellanos
@@ -12,7 +12,7 @@ Repository for the Coursera course Project on Data Science - Cleaning and Gettin
 
 
 ### Introduction
-
+[1]
 
 The dataset includes the following files:
 =========================================
