@@ -1,13 +1,12 @@
 Codebook
-========
+===============================================
 Samsung Galaxy S Tidy Data Subset
----------------------------------
-
+-----------------------------------
 **1. Subject**
   + Subjects that perform a set of activities
 
 
-      [1,30]
+      [1,30] . Integer values representing a person.
 
 
 
@@ -15,7 +14,7 @@ Samsung Galaxy S Tidy Data Subset
   + Activities performed by the test and train subjects
 
 
-      [LAYING, SITTING, STANDING, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS]. Activities
+      [LAYING, SITTING, STANDING, WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS]. String values representing activities.
 
 
 
@@ -23,7 +22,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *X* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -31,7 +30,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Y* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -39,7 +38,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Z* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -47,7 +46,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *X* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -55,7 +54,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Y* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -63,7 +62,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Z* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -71,7 +70,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *X* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -79,7 +78,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Y* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -87,7 +86,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Z* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -95,7 +94,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *X* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -103,7 +102,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Y* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -111,7 +110,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Z* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -119,7 +118,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *X* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -127,7 +126,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Y* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -135,7 +134,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Z* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -143,7 +142,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *X* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -151,7 +150,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Y* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -159,7 +158,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Z* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -167,7 +166,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *X* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -175,7 +174,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Y* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -183,7 +182,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Z* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -191,7 +190,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *X* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -199,7 +198,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Y* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -207,7 +206,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Z* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -215,7 +214,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *X* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -223,7 +222,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Y* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -231,7 +230,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Z* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -239,7 +238,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *X* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -247,7 +246,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Y* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -255,7 +254,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Z* direction in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -263,7 +262,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Mean* of the *Body Linear Jerk* in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -271,7 +270,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Standard Deviation* of the *Body Linear Jerk* in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -279,7 +278,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Mean* of the *Body Linear Jerk* in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -287,7 +286,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Standard Deviation* of the *Body Linear Jerk* in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -295,7 +294,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Mean* of the *Body Linear Jerk* in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -303,7 +302,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Standard Deviation* of the *Body Linear Jerk* in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -311,7 +310,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Mean* of the *Body Linear Jerk* in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -319,7 +318,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Standard Deviation* of the *Body Linear Jerk* in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -327,7 +326,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Mean* of the *Body Linear Jerk* in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -335,7 +334,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Standard Deviation* of the *Body Linear Jerk* in the *Time* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -343,7 +342,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -351,7 +350,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -359,7 +358,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Z* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -367,7 +366,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -375,7 +374,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -383,7 +382,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Z* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -391,7 +390,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -399,7 +398,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -407,7 +406,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Z* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -415,7 +414,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -423,7 +422,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -431,7 +430,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Z* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -439,7 +438,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -447,7 +446,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -455,7 +454,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Mean* of the *Body Linear Jerk* in the *Z* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -463,7 +462,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *X* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -471,7 +470,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Y* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -479,7 +478,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Standard Deviation* of the *Body Linear Jerk* in the *Z* direction in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -487,7 +486,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Mean* of the *Body Linear Jerk* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -495,7 +494,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Standard Deviation* of the *Body Linear Jerk* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -503,7 +502,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Mean* of the *Body Linear Jerk* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -511,7 +510,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Standard Deviation* of the *Body Linear Jerk* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -519,7 +518,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Mean* of the *Body Linear Jerk* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -527,7 +526,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Standard Deviation* of the *Body Linear Jerk* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -535,7 +534,7 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Mean* of the *Body Linear Jerk* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
 
 
@@ -543,5 +542,5 @@ Samsung Galaxy S Tidy Data Subset
   + Average value for the measurements of the *Magnitude* of the *Standard Deviation* of the *Body Linear Jerk* in the *Frequency* domain for a given *Subject* doing a specific *Activity*
 
 
-      [-1.0,1.0] . Normalized values.
+      [-1.0,1.0] . Normalized floating point values.
 
