@@ -1,6 +1,4 @@
-Data Science: 
-===================================================
-Getting and Cleaning Data Project
+Data Science: Getting and Cleaning Data Project
 ---------------------------------------------------
 **Human Activity Recognition Using Smartphones Subset**
 
