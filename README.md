@@ -60,9 +60,9 @@ This project includes the following files:
 
 - 'run_analysis.R': Main R script performing the tidy operations.
 
-- 'codebook.py': Pythons script to generate CodeBook.md
+- 'codebook.py': Python script to generate CodeBook.md
 
-- 'tidyData.txt': Tidy data processed from 
+- 'tidyData.txt': Tidy dataset  
 
 
 Notes: 
