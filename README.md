@@ -2,8 +2,10 @@ Human Activity Recognition Using Smartphones Subset
 ===================================================
 Version 1.0
 -----------------------------
-Gonzalo Andres Pena Castellanos
+Gonzalo PENA C.
+
 coursera-data-science-getting-and-cleaning-data
+
 goanpeca@gmail.com
 
 
