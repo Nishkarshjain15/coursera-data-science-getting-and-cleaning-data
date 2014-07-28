@@ -1,4 +1,4 @@
-Human Activity Recognition Using Smartphones Subset [1]
+Human Activity Recognition Using Smartphones Subset[1]
 ===============================================
 Version 1.0
 -----------------------------
@@ -34,6 +34,7 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 
 License:
 ========
+[1] http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
 Gonzalo Andres Pena Castellanos. July 2014.  
