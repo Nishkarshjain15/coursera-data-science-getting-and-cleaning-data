@@ -120,3 +120,4 @@ tidyDataRead <- read.csv(tidyFileName, sep=' ')
 
 # @ For CodeBook.md creation write column names of data set ####
 write.table(colnames(mergedDataSubset), 'dataset-column-names.txt', row.names=FALSE)
+
