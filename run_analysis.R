@@ -94,7 +94,7 @@ for (i in seq_along(colNames)){
     check1 <- grep('Angle', x=name)
     check2 <- grep('MeanFreq', x=name)
     if (!(any(check1) | any(check2))){
-        cols <- c(r, i)
+        cols <- c(cols, i)
     }
 } 
 
@@ -119,4 +119,4 @@ write.table(tidyData, file=tidyFileName, row.names=FALSE)
 tidyDataRead <- read.csv(tidyFileName, sep=' ')
 
 # @ For CodeBook.md creation write column names of data set ####
-write.table(colnames(mergedDataSubset), 'm.md', row.names=FALSE)
+write.table(colnames(mergedDataSubset), 'dataset-column-names.txt', row.names=FALSE)
