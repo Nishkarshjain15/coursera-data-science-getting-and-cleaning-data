@@ -1,6 +1,4 @@
 ## (c) 2014 Gonzalo PENA C.
-## These script
-
 
 # @ Set the current work directory ####
 script.dir <- dirname(sys.frame(1)$ofile)
