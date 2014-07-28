@@ -43,8 +43,8 @@ kurtosis(): kurtosis of the frequency domain signal
 bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 
 
-The dataset includes the following files:
------------------------------------------
+This project includes the following files:
+------------------------------------------
 - 'README.MD'
 
 - 'CodeBook.txt': List of all features.
