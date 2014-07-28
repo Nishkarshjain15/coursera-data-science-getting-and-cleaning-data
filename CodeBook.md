@@ -1,6 +1,7 @@
 Codebook
-===============================================
+========
 Samsung Galaxy S Tidy Data Subset
+---------------------------------
 
 **1. Subject**
   + Subjects that perform a set of activities
