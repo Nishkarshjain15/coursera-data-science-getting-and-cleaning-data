@@ -85,7 +85,8 @@ trainMergedData <- cbind(trainSubject, trainActivity, trainData)
 # @ Merges the training and the test sets to create one data set ####
 mergedData <- rbind(testMergedData, trainMergedData)
 
-# Select columns that do not conatin Angle or MeanFreq ####
+# Select columns that do not contain Angle or MeanFreq ####
+# This columns are not considered as mean or std meassurements
 cols <- c()
 colNames <- colnames(mergedData)
 for (i in seq_along(colNames)){
@@ -97,7 +98,7 @@ for (i in seq_along(colNames)){
     }
 } 
 
-# Extracts only the measurements on the mean and standard deviation #### 
+# Extract only the measurements on the mean and standard deviation #### 
 # from the selected columns in the previous step
 mergedData <- mergedData[,cols]
 mergedDataSubset <- mergedData[,grep('Subject|Activity|Mean|std',x=colnames(mergedData))]
