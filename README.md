@@ -21,7 +21,7 @@ The dataset includes the following files:
 
 - 'run_analysis.R': Main R script performing the tidy operations.
 
-- 'codebook.py': Pythons cript to generate CodeBook.md
+- 'codebook.py': Pythons script to generate CodeBook.md
 
 - 'tidyData.txt': Tidy data processed from 
 
